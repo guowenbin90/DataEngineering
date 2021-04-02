@@ -26,3 +26,43 @@ With these tools, the data gets extracted, then loaded directly, and finally tra
 However, ETL pipelines are still used even with these cloud tools. 
 Oftentimes, it still makes sense to run ETL pipelines and store data in a more readable or intuitive format. 
 This can help data analysts and scientists work more efficiently as well as help an organization become more data driven.
+
+## Outline of the Lesson
+1. Extract data from different sources such as:
+- csv files
+- json files
+- APIs
+- Transform data
+- combining data from different sources
+- data cleaning
+- data types
+- parsing dates
+- file encodings
+- missing data
+- duplicate data
+- dummy variables
+- remove outliers
+- scaling features
+- engineering features
+- Load
+- send the transformed data to a database
+- ETL Pipeline
+- code an ETL pipeline
+
+This lesson contains many Jupyter notebook exercises where you can practice the different parts of an ETL pipeline. 
+Some of the exercises are challenging, but they also contain hints to help you get through them. 
+You'll notice that the "transformation" section is relatively long. 
+You'll oftentimes hear data scientists say that cleaning and transforming data is how they spend a majority of their time. 
+This lesson reflects that reality.
+
+## Big Data Courses at Udacity
+"Big Data" gets a lot of buzz these days, and it is definitely an important part of a data engineer's and, sometimes, a data scientists's work. With "Big Data", you need special tools that can work on distributed computer systems.
+
+This ETL course focuses on the practical fundamentals of ETL. Hence, you'll be working with a local data set so that you do not need to worry about learning a new tool. Udacity has other courses where the primary focus is on tools used for distributed data sets.
+
+Here are links to other big data courses at Udacity:
+
+- Intro to Hadoop and MapReduce
+- Deploying a Hadoop Cluster
+- Real-time Analytics with Apache Storm
+- Big Data Analytics in Health Care
